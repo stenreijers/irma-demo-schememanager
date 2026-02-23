@@ -1,4 +1,5 @@
-<IssuerDescription version="4">
+<Issuer version="4">
+	<ID>staffpass</ID>
 	<Name>
 		<en>Demo StaffPass</en>
 		<nl>Demo StaffPass</nl>
@@ -8,7 +9,7 @@
 		<nl>Demo StaffPass</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<ID>staffpass</ID>
 	<ContactAddress>https://staffpass.nl</ContactAddress>
 	<ContactEMail>info@staffpass.nl</ContactEMail>
-</IssuerDescription>
+	<baseURL>http://www.irmacard.org/credentials/phase1/staffpass/</baseURL>
+</Issuer>
