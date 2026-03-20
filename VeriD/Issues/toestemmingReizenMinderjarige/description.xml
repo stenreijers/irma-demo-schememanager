@@ -1,0 +1,79 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Travel consent for minor</en>
+		<nl>Demo Toestemming reizen minderjarige</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Travel consent</en>
+		<nl>Demo Reistoestemming</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>toestemmingReizenMinderjarige</CredentialID>
+	<Description>
+		<en>Parental consent for a minor to travel abroad, a private declaration between parents</en>
+		<nl>Ouderlijke toestemming voor een minderjarige om naar het buitenland te reizen, een privaatrechtelijke verklaring tussen ouders</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.toestemmingReizenMinderjarige.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.toestemmingReizenMinderjarige.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="toestemming_andere_ouder"
+			displayIndex="0">
+			<Name>
+				<en>Consent other parent</en>
+				<nl>Toestemming andere ouder</nl>
+			</Name>
+			<Description>
+				<en>Confirmation of consent from the other parent</en>
+				<nl>Bevestiging van toestemming van de andere ouder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="naam_andere_ouder"
+			displayIndex="1">
+			<Name>
+				<en>Name other parent</en>
+				<nl>Naam andere ouder</nl>
+			</Name>
+			<Description>
+				<en>Full name of the other parent who gave consent</en>
+				<nl>Volledige naam van de andere ouder die toestemming heeft gegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="datum_toestemming"
+			displayIndex="2">
+			<Name>
+				<en>Date of consent</en>
+				<nl>Datum toestemming</nl>
+			</Name>
+			<Description>
+				<en>Date on which consent was given</en>
+				<nl>Datum waarop toestemming is gegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geldigheid_periode"
+			displayIndex="3">
+			<Name>
+				<en>Validity period</en>
+				<nl>Geldigheid periode</nl>
+			</Name>
+			<Description>
+				<en>Period during which the consent is valid</en>
+				<nl>Periode waarbinnen de toestemming geldig is</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="digitale_handtekening_ouders"
+			displayIndex="4">
+			<Name>
+				<en>Digital signature parents</en>
+				<nl>Digitale handtekening ouders</nl>
+			</Name>
+			<Description>
+				<en>Digital signature of the parents</en>
+				<nl>Digitale handtekening van de ouders</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

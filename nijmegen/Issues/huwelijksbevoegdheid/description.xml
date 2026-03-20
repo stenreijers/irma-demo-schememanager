@@ -1,0 +1,145 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Certificate of marital capacity</en>
+		<nl>Demo Huwelijksbevoegdheid</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Marital capacity</en>
+		<nl>Demo Huwelijksbevoegdheid</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>huwelijksbevoegdheid</CredentialID>
+	<Description>
+		<en>Certificate of marital capacity for marriage abroad, proving eligibility to marry under Dutch law</en>
+		<nl>Verklaring van huwelijksbevoegdheid voor huwelijk in het buitenland, bewijs van bevoegdheid om te trouwen naar Nederlands recht</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.huwelijksbevoegdheid.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.huwelijksbevoegdheid.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="naam"
+			displayIndex="0">
+			<Name>
+				<en>Name</en>
+				<nl>Naam</nl>
+			</Name>
+			<Description>
+				<en>Full name of the person</en>
+				<nl>Volledige naam van de persoon</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geboortedatum"
+			displayIndex="1">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geboorteplaats"
+			displayIndex="2">
+			<Name>
+				<en>Place of birth</en>
+				<nl>Geboorteplaats</nl>
+			</Name>
+			<Description>
+				<en>Place of birth</en>
+				<nl>Geboorteplaats</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="nationaliteit"
+			displayIndex="3">
+			<Name>
+				<en>Nationality</en>
+				<nl>Nationaliteit</nl>
+			</Name>
+			<Description>
+				<en>Nationality of the person</en>
+				<nl>Nationaliteit van de persoon</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="burgerlijke_staat"
+			displayIndex="4">
+			<Name>
+				<en>Marital status</en>
+				<nl>Burgerlijke staat</nl>
+			</Name>
+			<Description>
+				<en>Current marital status (unmarried / divorced)</en>
+				<nl>Huidige burgerlijke staat (ongehuwd / gescheiden)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="verklaring_geen_huwelijksbeletsel"
+			displayIndex="5">
+			<Name>
+				<en>No impediment to marriage</en>
+				<nl>Verklaring geen huwelijksbeletsel</nl>
+			</Name>
+			<Description>
+				<en>Declaration that there is no legal impediment to marriage</en>
+				<nl>Verklaring dat er geen wettelijk huwelijksbeletsel is</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="datum_afgifte"
+			displayIndex="6">
+			<Name>
+				<en>Date of issue</en>
+				<nl>Datum afgifte</nl>
+			</Name>
+			<Description>
+				<en>Date on which the certificate was issued</en>
+				<nl>Datum waarop het bewijs is afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geldig_tot"
+			displayIndex="7">
+			<Name>
+				<en>Valid until</en>
+				<nl>Geldig tot</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of the certificate</en>
+				<nl>Vervaldatum van het bewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="naam_partner"
+			displayIndex="8">
+			<Name>
+				<en>Partner's name</en>
+				<nl>Naam partner</nl>
+			</Name>
+			<Description>
+				<en>Full name of the partner</en>
+				<nl>Volledige naam van de partner</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geboortedatum_partner"
+			displayIndex="9">
+			<Name>
+				<en>Partner's date of birth</en>
+				<nl>Geboortedatum partner</nl>
+			</Name>
+			<Description>
+				<en>Date of birth of the partner</en>
+				<nl>Geboortedatum van de partner</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="nationaliteit_partner"
+			displayIndex="10">
+			<Name>
+				<en>Partner's nationality</en>
+				<nl>Nationaliteit partner</nl>
+			</Name>
+			<Description>
+				<en>Nationality of the partner</en>
+				<nl>Nationaliteit van de partner</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
