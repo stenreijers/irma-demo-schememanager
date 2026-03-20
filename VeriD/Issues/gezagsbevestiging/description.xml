@@ -1,0 +1,101 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Custody confirmation</en>
+		<nl>Demo Gezagsbevestiging</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Custody confirmation</en>
+		<nl>Demo Gezagsbevestiging</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>gezagsbevestiging</CredentialID>
+	<Description>
+		<en>Confirmation of parental custody from the custody register</en>
+		<nl>Bevestiging van ouderlijk gezag uit het gezagsregister</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.gezagsbevestiging.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.gezagsbevestiging.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="naam_kind"
+			displayIndex="0">
+			<Name>
+				<en>Child's name</en>
+				<nl>Naam kind</nl>
+			</Name>
+			<Description>
+				<en>Full name of the child</en>
+				<nl>Volledige naam van het kind</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geboortedatum_kind"
+			displayIndex="1">
+			<Name>
+				<en>Child's date of birth</en>
+				<nl>Geboortedatum kind</nl>
+			</Name>
+			<Description>
+				<en>Date of birth of the child</en>
+				<nl>Geboortedatum van het kind</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="naam_ouder"
+			displayIndex="2">
+			<Name>
+				<en>Parent's name</en>
+				<nl>Naam ouder</nl>
+			</Name>
+			<Description>
+				<en>Full name of the parent with custody</en>
+				<nl>Volledige naam van de ouder met gezag</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="gezagsrelatie"
+			displayIndex="3">
+			<Name>
+				<en>Custody relation</en>
+				<nl>Gezagsrelatie</nl>
+			</Name>
+			<Description>
+				<en>Type of custody relation (e.g. parent with custody)</en>
+				<nl>Type gezagsrelatie (bijv. ouder met gezag)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="gezag_bevestigd"
+			displayIndex="4">
+			<Name>
+				<en>Custody confirmed</en>
+				<nl>Gezag bevestigd</nl>
+			</Name>
+			<Description>
+				<en>Confirmation that custody has been verified</en>
+				<nl>Bevestiging dat het gezag is geverifieerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bron"
+			displayIndex="5">
+			<Name>
+				<en>Source</en>
+				<nl>Bron</nl>
+			</Name>
+			<Description>
+				<en>Source of the custody information (BRP / custody register)</en>
+				<nl>Bron van de gezagsinformatie (BRP / gezagsregister)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="datum_afgifte"
+			displayIndex="6">
+			<Name>
+				<en>Date of issue</en>
+				<nl>Datum afgifte</nl>
+			</Name>
+			<Description>
+				<en>Date on which the confirmation was issued</en>
+				<nl>Datum waarop de bevestiging is afgegeven</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

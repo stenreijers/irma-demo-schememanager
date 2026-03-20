@@ -1,0 +1,101 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Proof of life</en>
+		<nl>Demo Bewijs van in leven zijn</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Proof of life</en>
+		<nl>Demo Bewijs van in leven zijn</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>attestatieDeVita</CredentialID>
+	<Description>
+		<en>Proof of life certificate for pension fund verification</en>
+		<nl>Bewijs van in leven zijn voor pensioenfonds verificatie</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.attestatieDeVita.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.attestatieDeVita.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="naam"
+			displayIndex="0">
+			<Name>
+				<en>Name</en>
+				<nl>Naam</nl>
+			</Name>
+			<Description>
+				<en>Full name of the person</en>
+				<nl>Volledige naam van de persoon</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geboortedatum"
+			displayIndex="1">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="verklaring_in_leven"
+			displayIndex="2">
+			<Name>
+				<en>Declaration alive</en>
+				<nl>Verklaring in leven</nl>
+			</Name>
+			<Description>
+				<en>Confirmation that the person is alive</en>
+				<nl>Bevestiging dat de persoon in leven is</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="datum_vaststelling"
+			displayIndex="3">
+			<Name>
+				<en>Date of determination</en>
+				<nl>Datum vaststelling</nl>
+			</Name>
+			<Description>
+				<en>Date on which the proof of life was established</en>
+				<nl>Datum waarop het bewijs van in leven zijn is vastgesteld</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geldig_tot"
+			displayIndex="4">
+			<Name>
+				<en>Valid until</en>
+				<nl>Geldig tot</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of the certificate</en>
+				<nl>Vervaldatum van het bewijs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geboorteplaats"
+			displayIndex="5">
+			<Name>
+				<en>Place of birth</en>
+				<nl>Geboorteplaats</nl>
+			</Name>
+			<Description>
+				<en>Place of birth</en>
+				<nl>Geboorteplaats</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="woonadres"
+			displayIndex="6">
+			<Name>
+				<en>Residential address</en>
+				<nl>Woonadres</nl>
+			</Name>
+			<Description>
+				<en>Residential address of the person</en>
+				<nl>Woonadres van de persoon</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
